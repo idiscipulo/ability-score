@@ -204,15 +204,11 @@ class App extends Component {
 				<div className="App-header">
 					<h1 className="Header-text">My D&D Abilities</h1>
 				</div>
-				{this.state.result ? this.renderResult() : this.renderQuiz()}
-				<div className="Reset">
-					<p onClick={this.reset}>Reset</p>
-				</div>
-				<div className="App-footer">
-					<p className="Footer-line">Created by Isaiah Discipulo</p>
-					<p className="Footer-line">ikdiscipulo@gmail.com</p>
-					<br />
-					<p className="Footer-line">Thanks to Zach Kumaishi</p>
+				<div className="App-body">
+					{this.state.result ? this.renderResult() : this.renderQuiz()}
+					<div className="Reset">
+						<p onClick={this.reset}>Reset</p>
+					</div>
 				</div>
 			</div>
 		);

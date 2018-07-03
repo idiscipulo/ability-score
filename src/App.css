@@ -89,14 +89,3 @@ body {
 	font-family: 'Eagle Lake', 'Times New Roman';
 	cursor: pointer;
 }
-
-.App-footer {
-	position: fixed;
-	bottom: 0;
-	width: stretch;
-	background-color: #c82a2a;
-	padding: 0.8em;
-	font-size: 0.5em;
-	color: #262626;
-	font-family: 'Eagle Lake', 'Times New Roman';
-}
