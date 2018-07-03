@@ -5,7 +5,7 @@ function AnswerOption(props) {
 		<div className="Answer-option">
 			<input 
 			type="radio"
-			className="radioCustomButton"
+			className="Answer-button"
 			name="radioGroup"
 			checked={props.answerType === props.answer}
 			id={props.answerType}

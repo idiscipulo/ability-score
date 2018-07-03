@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
 
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("parchment.png");
+}
+
 .App {
 	text-align: center;
 }
@@ -16,7 +22,7 @@
 	font-family: 'Eagle Lake', 'Times New Roman';
 }
 
-.Page-header {
+.Page-top {
 	color: #262626;
 	font-size: 1.5em;
 	font-family: 'Eagle Lake', 'Times New Roman';
@@ -45,7 +51,12 @@
 	max-width: 15em;
 }
 
+.Answer-button {
+	visibility: hidden;
+}
+
 .Answer {
+	cursor: pointer;
 	margin-left: -1.5em;
 	color: #262626;
 	font-family: 'Eagle Lake', 'Times New Roman';
@@ -88,22 +99,4 @@
 	font-size: 0.5em;
 	color: #262626;
 	font-family: 'Eagle Lake', 'Times New Roman';
-}
-
-.Footer-line {
-	margin: 0;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	background-image: url("parchment.png");
-}
-
-input {
-	visibility: hidden;
-}
-
-label {
-	cursor: pointer;
 }
