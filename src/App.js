@@ -183,8 +183,8 @@ class App extends Component {
 		this.setState({
 			counter: 0,
 			questionId: 1,
-			question: '',
-			answerOptions: [],
+			question: quizQuestions[0].question,
+			answerOptions: quizQuestions[0].answers,
 			answer: '',
 			abilityList: {
 				strength: 10,
@@ -194,9 +194,7 @@ class App extends Component {
 				wisdom: 10,
 				charisma: 10
 			},
-			result: '',
-			question: quizQuestions[0].question,
-			answerOptions: quizQuestions[0].answers
+			result: ''
 		});
 	}
 	
@@ -209,6 +207,12 @@ class App extends Component {
 				{this.state.result ? this.renderResult() : this.renderQuiz()}
 				<div className="Reset">
 					<p onClick={this.reset}>Reset</p>
+				</div>
+				<div className="App-footer">
+					<p className="Footer-line">Created by Isaiah Discipulo</p>
+					<p className="Footer-line">ikdiscipulo@gmail.com</p>
+					<br />
+					<p className="Footer-line">Thanks to Zach Kumaishi</p>
 				</div>
 			</div>
 		);
