@@ -91,7 +91,7 @@ body {
 }
 
 .App-footer {
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: stretch;
 	background-color: #c82a2a;
