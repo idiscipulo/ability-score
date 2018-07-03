@@ -6,19 +6,19 @@
 
 .App-header {
   background-color: #c82a2a;
-  padding: 1%;
+  padding: 1ch;
 }
 
 .Header-text {
   top: 0;
   color: #1a1a1a;
-  font-size: 300%;
+  font-size: 4ch;
   font-family: 'Eagle Lake', cursive;
 }
 
 .Page-header {
   color: #262626;
-  font-size: 180%;
+  font-size: 2ch;
   font-family: 'Eagle Lake', cursive;
 }
 
@@ -31,16 +31,16 @@
 }
 
 .Answer-option {
-  padding-top: 0.2%;
-  padding-bottom: 0.2%;
-  margin-left: 43%;
-  margin-right: 43%;
+  margin-left: 30ch;
+  margin-right: 30ch;
+  padding-top: 0.5ch;
+  padding-bottom: 0.5ch;
 }
 
 .Answer {
-  margin-left: -18px;
+  margin-left: -1.5ch;
   color: #262626;
-  font-size: 120%;
+  font-size: 1.3ch;
   font-family: 'Eagle Lake', cursive;
 }
 
@@ -53,22 +53,21 @@
 }
 
 .Result-option {
-  padding-top: 0.2%;
-  padding-bottom: 0.2%;
-  margin-left: 43%;
-  margin-right: 43%;
+  margin-left: 30ch;
+  margin-right: 30ch;
+  padding-top: 0.5ch;
+  padding-bottom: 0.5ch;
 }
 
 .Result {
   color: #262626;
-  font-size: 120%;
+  font-size: 1.3ch;
   font-family: 'Eagle Lake', cursive;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   background-image: url("parchment.png");
 }
 
