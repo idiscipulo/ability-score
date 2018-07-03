@@ -31,10 +31,11 @@
 }
 
 .Answer-option {
-  margin-left: 14em;
-  margin-right: 14em;
+  margin: auto;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
+  min-width: 15em;
+  max-width: 15em;
 }
 
 .Answer {
@@ -52,10 +53,11 @@
 }
 
 .Result-option {
-  margin-left: 14em;
-  margin-right: 14em;
+  margin: auto;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
+  min-width: 15em;
+  max-width: 15em;
 }
 
 .Result {
