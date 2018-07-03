@@ -18,6 +18,9 @@ function Quiz(props) {
 
 	return (
 		<div className="Quiz">
+			<div className="Count">
+				[ {props.questionId} / {props.questionTotal} ]
+			</div>
 			<Question content={props.question} />
 			<div className="Answers-wrapper">
 				{props.answerOptions.map(renderAnswerOptions)}

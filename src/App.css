@@ -1,80 +1,94 @@
 @import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-header {
-  background-color: #c82a2a;
-  padding: 0.8em;
+	background-color: #c82a2a;
+	padding: 0.8em;
 }
 
 .Header-text {
-  top: 0;
-  color: #1a1a1a;
-  font-size: 3em;
-  font-family: 'Eagle Lake', cursive;
+	top: 0;
+	color: #1a1a1a;
+	font-size: 3em;
+	font-family: 'Eagle Lake', 'Times New Roman';
 }
 
 .Page-header {
-  color: #262626;
-  font-size: 1.5em;
-  font-family: 'Eagle Lake', cursive;
+	color: #262626;
+	font-size: 1.5em;
+	font-family: 'Eagle Lake', 'Times New Roman';
+}
+
+.Count {
+	padding-top: 1.2em;
+	margin-bottom: -0.5em;
+	color: #262626;
+	font-family: 'Eagle Lake', 'Times New Roman';
 }
 
 .Answer-wrapper {
-  width: 100%;
+	width: 100%;
 }
 
 .Answer-option:nth-child(odd) {
-  background-color: #d43232
+	background-color: #d43232
 }
 
 .Answer-option {
-  margin: auto;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  min-width: 15em;
-  max-width: 15em;
+	margin: auto;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	min-width: 15em;
+	max-width: 15em;
 }
 
 .Answer {
-  margin-left: -1.5em;
-  color: #262626;
-  font-family: 'Eagle Lake', cursive;
+	margin-left: -1.5em;
+	color: #262626;
+	font-family: 'Eagle Lake', 'Times New Roman';
 }
 
 .Result-wrapper {
-  width: 100%;
+	width: 100%;
 }
 
 .Result-option:nth-child(odd) {
-  background-color: #d43232
+	background-color: #d43232
 }
 
 .Result-option {
-  margin: auto;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  min-width: 15em;
-  max-width: 15em;
+	margin: auto;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	min-width: 15em;
+	max-width: 15em;
 }
 
 .Result {
-  color: #262626;
-  font-family: 'Eagle Lake', cursive;
+	color: #262626;
+	font-family: 'Eagle Lake', 'Times New Roman';
+}
+
+.Reset {
+	margin-top: 4em;
+	color: #262626;
+	font-family: 'Eagle Lake', 'Times New Roman';
+	cursor: pointer;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-image: url("parchment.png");
+	margin: 0;
+	padding: 0;
+	background-image: url("parchment.png");
 }
 
 input {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 label {
-  cursor: pointer;
+	cursor: pointer;
 }

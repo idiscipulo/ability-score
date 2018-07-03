@@ -15,6 +15,26 @@ function Result(props) {
 						Dexterity: <strong>{props.quizResult.dexterity}</strong>
 					</div>
 				</div>
+				<div className="Result-option">
+					<div className="Result">
+						Constitution: <strong>{props.quizResult.constitution}</strong>
+					</div>
+				</div>
+				<div className="Result-option">
+					<div className="Result">
+						Intelligence: <strong>{props.quizResult.intelligence}</strong>
+					</div>
+				</div>
+				<div className="Result-option">
+					<div className="Result">
+						Wisdom: <strong>{props.quizResult.wisdom}</strong>
+					</div>
+				</div>
+				<div className="Result-option">
+					<div className="Result">
+						Charisma: <strong>{props.quizResult.charisma}</strong>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
