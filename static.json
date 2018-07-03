@@ -1,5 +1,5 @@
 {
-	"root": "dist/",
+	"root": "ability-score/",
 	"routes": {
 		"/**": "index.html"
 	}
