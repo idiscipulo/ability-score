@@ -6,19 +6,19 @@
 
 .App-header {
   background-color: #c82a2a;
-  padding: 1ch;
+  padding: 0.8em;
 }
 
 .Header-text {
   top: 0;
   color: #1a1a1a;
-  font-size: 4ch;
+  font-size: 3em;
   font-family: 'Eagle Lake', cursive;
 }
 
 .Page-header {
   color: #262626;
-  font-size: 2ch;
+  font-size: 1.5em;
   font-family: 'Eagle Lake', cursive;
 }
 
@@ -31,16 +31,15 @@
 }
 
 .Answer-option {
-  margin-left: 30ch;
-  margin-right: 30ch;
-  padding-top: 0.5ch;
-  padding-bottom: 0.5ch;
+  margin-left: 14em;
+  margin-right: 14em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 .Answer {
-  margin-left: -1.5ch;
+  margin-left: -1.5em;
   color: #262626;
-  font-size: 1.3ch;
   font-family: 'Eagle Lake', cursive;
 }
 
@@ -53,15 +52,14 @@
 }
 
 .Result-option {
-  margin-left: 30ch;
-  margin-right: 30ch;
-  padding-top: 0.5ch;
-  padding-bottom: 0.5ch;
+  margin-left: 14em;
+  margin-right: 14em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 .Result {
   color: #262626;
-  font-size: 1.3ch;
   font-family: 'Eagle Lake', cursive;
 }
 
