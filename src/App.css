@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #c82a2a;
+  padding: 1%;
+}
+
+.Header-text {
+  top: 0;
+  color: #1a1a1a;
+  font-size: 300%;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.Page-header {
+  color: #262626;
+  font-size: 180%;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.Answer-wrapper {
+  width: 100%;
+}
+
+.Answer-option:nth-child(odd) {
+  background-color: #d43232
+}
+
+.Answer-option {
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+.Answer {
+  margin-left: -18px;
+  color: #262626;
+  font-size: 120%;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.Result-wrapper {
+  width: 100%;
+}
+
+.Result-option:nth-child(odd) {
+  background-color: #d43232
+}
+
+.Result-option {
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+.Result {
+  color: #262626;
+  font-size: 120%;
+  font-family: 'Eagle Lake', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("parchment.png");
+}
+
+input {
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+}
