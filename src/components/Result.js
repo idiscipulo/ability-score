@@ -3,7 +3,7 @@ import React from 'react';
 function Result(props) {
 	return (
 		<div className="Result-page">
-			<h2 className="Page-header">Ability Scores</h2>
+			<h2 className="Page-top">Ability Scores</h2>
 			<div className="Result-wrapper">
 				<div className="Result-option">
 					<div className="Result">
